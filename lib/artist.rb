@@ -21,7 +21,6 @@ class Artist
   
   self.find_or_create_by_name(name)
      self.find? self.find(name : add_song(name)
-   end 
  end
     
   self.find(name) 
