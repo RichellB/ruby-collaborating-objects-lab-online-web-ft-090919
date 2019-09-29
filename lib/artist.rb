@@ -23,6 +23,7 @@ class Artist
    if !self.all.find {|person| person.name == name 
      song = Song.new(name)
      add_song(song)
-  end
+   end 
+ end
     
 end 
