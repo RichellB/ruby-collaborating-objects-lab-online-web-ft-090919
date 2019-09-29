@@ -20,8 +20,7 @@ class Artist
   end 
   
   self.find_or_create_by_name(name)
-     if self.find? self.find(name : song = Song.new(name)
-     add_song(song)
+     if self.find? self.find(name : add_song(song)
    end 
  end
     
