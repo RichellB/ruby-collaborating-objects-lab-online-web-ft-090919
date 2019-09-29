@@ -20,7 +20,7 @@ class Artist
   end 
   
   self.find_or_create_by_name(name)
-     self.find? self.find(name : self.new(name)
+     self.find? self.find(name) : self.new(name)
  end
     
   self.find(name) 
