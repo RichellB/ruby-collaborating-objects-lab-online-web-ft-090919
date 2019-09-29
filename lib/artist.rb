@@ -28,5 +28,5 @@ class Artist
   end
   
   def print_songs 
-    artist.
+    songs.each {|song| song.name
 end 
