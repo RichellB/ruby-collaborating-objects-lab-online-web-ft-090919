@@ -14,4 +14,11 @@ class Artist
   def add_song(song)
     song.artist = self 
   end
+  
+  def songs 
+    song.all.select {|song| song.artist == self}
+  end 
+  
+  self.find_or_create_by_name 
+    
 end 
