@@ -20,10 +20,12 @@ class Artist
   end 
   
   self.find_or_create_by_name(name)
-    self.all.find {|person| person.name == name 
      song = Song.new(name)
      add_song(song)
    end 
  end
     
+  self.find(name) 
+  self.all.find {|person| person.name == name
+end
 end 
